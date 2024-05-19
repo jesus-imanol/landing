@@ -5,5 +5,5 @@
     flex-wrap: wrap;
 }
 header {
-    background-color: #AEAD58;
+    border-bottom: 5px solid gray;
 }

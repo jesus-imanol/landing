@@ -1,9 +1,15 @@
 #title {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 100px;
-    color: #ffff;
+    color: transparent;
+    background-image: url('../images/mar.jpg');
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    
 }
 #sub_title {
     font-family: "Montserrat", sans-serif;
