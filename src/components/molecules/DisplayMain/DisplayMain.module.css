@@ -3,16 +3,21 @@
     display: flex;
     width: 70%;;
     height: 600px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     border-radius: 20px;
     box-shadow: 0 0 10px #F9F66D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0 50px;
     
 }
 #container_card:hover {
-    background-color: #CBCACA;
+    background-color: #545454;
+    transform: translateY(-5px);
+}
+#img_card_main {
+    width: 50%;
 }
 #box_main {
     display: flex;
@@ -36,4 +41,9 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#box_avatar:hover {
+    background-color: #545454;
+    transform: translateY(-5px);
 }
