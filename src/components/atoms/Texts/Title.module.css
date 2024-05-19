@@ -1,0 +1,22 @@
+#title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 100px;
+    color: #ffff;
+}
+#sub_title {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffff;
+}
+#paragraph_intro {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 50px;
+    color: gray; 
+    text-align: left;
+}

@@ -1,0 +1,9 @@
+#text_categories {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic bold;
+    font-size: 20px;
+    color: gray; 
+    text-align: center;
+}

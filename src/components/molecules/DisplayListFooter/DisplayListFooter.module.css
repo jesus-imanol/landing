@@ -1,0 +1,14 @@
+#lists {
+    width: 8.33%;
+    height: 20px;
+    display: flex;
+}
+#box_list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}

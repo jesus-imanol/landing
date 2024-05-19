@@ -1,0 +1,7 @@
+#image_entrance {
+    padding: 0 5%;
+    width: 80%;
+    filter: drop-shadow(
+        0 0 10px #F9F66D
+    );
+}

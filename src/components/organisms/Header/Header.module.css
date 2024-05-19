@@ -1,0 +1,9 @@
+#father {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    background-color: #AEAD58;
+}

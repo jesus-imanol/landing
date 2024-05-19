@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic bold;
+  font-size: 20px;
+  color: #ffff;
+}
+body {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #000000;
+}

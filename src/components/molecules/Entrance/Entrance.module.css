@@ -1,0 +1,15 @@
+#info_left {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#info_right {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; 
+    
+}

@@ -1,0 +1,12 @@
+#list {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 10px;
+    color: #ffff;   
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
