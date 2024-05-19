@@ -1,0 +1,19 @@
+#up_text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    color: #ffff; 
+
+}
+#medium_text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    color: gray;
+}
+#lo_text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    color: gray;
+}
