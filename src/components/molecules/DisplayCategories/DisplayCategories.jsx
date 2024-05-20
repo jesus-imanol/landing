@@ -1,7 +1,7 @@
 import TextCategories from "../../atoms/Texts/TextCategories"
 import style from './DisplayCategories.module.css'
-import categories from "../../../data/BDCategories"
 import TitleIntro from "../../atoms/Texts/TextIntro"
+import data from "../../../data/BD"
 function DisplayCategories() {
     return (
         <>
@@ -11,12 +11,12 @@ function DisplayCategories() {
         <div id={style.box_categories}> 
         
             {
-                categories.products.map(product =>{
+                data.categories.map(categorie =>{
                     return (
                         <>
                         <div id={style.cards}>
-                        <img src={product.image} id={style.img_cards}></img>
-                        <TextCategories text={product.text}></TextCategories>         
+                        <img src={categorie.image} id={style.img_cards}></img>
+                        <TextCategories text={categorie.text}></TextCategories>         
                 </div>
                       </>
                     )

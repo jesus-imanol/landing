@@ -8,7 +8,7 @@ function Entrance() {
         <ImageMain></ImageMain>
         </div>
         <div id={style.info_right}>
-        <Title></Title> 
+        <Title title={"Rio de Janeiro"} sub_title={"Because is this Brazil"}></Title> 
         </div>
         </>
         

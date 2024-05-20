@@ -1,10 +1,10 @@
 import style from './Title.module.css'
 
-function Title() {
+function Title(props) {
 return (
 <>
-<h1 id={style.title}>Rio de Janeiro</h1>
-<h2 id={style.sub_title}>Because this is Brazil</h2>
+<h1 id={style.title}>{props.title}</h1>
+<h2 id={style.sub_title}>{props.sub_title}</h2>
 </>
 )
 }

@@ -1,13 +1,14 @@
 import style from './DisplayListFooter.module.css'
-import list from '../../../data/ListConcepts'
+import data from '../../../data/BD'
 import ListFooter from '../../atoms/Texts/ListFooter'
+
 function DisplayListFooter() {
     return(
         
         <>
         <div id={style.box_list}>
             {
-                list.texts.map( texts_obj=> {
+                data.texts.map( texts_obj=> {
                     return (
                         <>
                         <div id={style.lists}>
